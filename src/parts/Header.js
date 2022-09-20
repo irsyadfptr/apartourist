@@ -35,21 +35,21 @@ const Header = (props) => {
                     Home
                   </Button>
                 </li>
-                {/* <li className={`nav-item${getNavLinkClass("/browse-by")}`}>
-                  <Button className="nav-link" type="link" to="/browse-by">
+                <li className={`nav-item${getNavLinkClass("/browse-by")}`}>
+                  <Button className="nav-link" type="link" href="/browse-by">
                     Browse By
                   </Button>
                 </li>
                 <li className={`nav-item${getNavLinkClass("/stories")}`}>
-                  <Button className="nav-link" type="link" to="/stories">
+                  <Button className="nav-link" type="link" href="/stories">
                     Stories
                   </Button>
                 </li>
                 <li className={`nav-item${getNavLinkClass("/agents")}`}>
-                  <Button className="nav-link" type="link" to="/agents">
+                  <Button className="nav-link" type="link" href="/agents">
                     Agents
                   </Button>
-                </li> */}
+                </li>
               </ul>
             </div>
           </nav>
