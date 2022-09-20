@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import propTypes from "prop-types";
 
 const Button = (props) => {
-  const { type, onClick, href, isDisabled, isExternal, children, isPrimary, isLight, isLarge, isSmall, isBlock, hasShadow, style } = props;
+  const { type, onClick, href, isDisabled, isLoading, isExternal, children, isPrimary, isLight, isLarge, isSmall, isBlock, hasShadow, style } = props;
   //Make props isPrimary, isLight, isLarge, isSmall, isBlock, hasShadow
 
   const className = [props.className];
@@ -37,6 +37,22 @@ const Button = (props) => {
         </Link>
       );
     }
+  }
+
+  if (isDisabled || isLoading) {
+    if (isDisabled) className.push("disabled");
+    return (
+      <span className={className.join(" ")} style={props.style}>
+        {isLoading ? (
+          <>
+            <span className="spinner-border spinner-border-sm mx-5"></span>
+            <span className="sr-only">Loading...</span>
+          </>
+        ) : (
+          children
+        )}
+      </span>
+    );
   }
 
   return (
