@@ -4,8 +4,7 @@ import locationIcon from "../assets/images/icons/loc-icon.svg";
 import apartIcon from "../assets/images/icons/apart-icon.svg";
 import travelIcon from "../assets/images/icons/travel-icon.svg";
 
-import heroImg from "../assets/images/hero-img.png";
-import heroBorderImg from "../assets/images/heroBorder-img.png";
+import heroImg from "../assets/images/heroImg.png";
 
 import Button from "elements/Button";
 
@@ -21,8 +20,8 @@ export default function Hero(props) {
       <section className="container pt-4">
         <div className="row align-items-center">
           <div className="col-auto pr-5" style={{ width: 530 }}>
-            <h1 className="font-weight-bold line-height-1 mb-3">
-              Rent and Find, <br />
+            <h1 className="line-height-1 mb-3" style={{color: "#140536", fontWeight: 400}}>
+              <span className="text-primary font-weight-bold">Rent</span> and <span className="text-primary2 font-weight-bold">Find</span>, <br />
               Hidden Gems Around You!
             </h1>
             <p
@@ -88,20 +87,12 @@ export default function Hero(props) {
           </div>
 
           <div className="col-6 pl-5">
-            <div style={{ width: 520, height: 410 }}>
-              <img
-                src={heroImg}
-                alt="Room with couches"
-                className="img-fluid position-absolute"
-                style={{ margin: "-30px 0 0 -30px", zIndex: 1 , maxWidth: 520, maxHeight: 340}}
-              />
-              <img
-                src={heroBorderImg}
-                alt="Room with couches frame"
-                className="img-fluid position-absolute"
-                style={{ margin: "0 -15px -15px 0" , maxWidth: 520}}
-              />
-            </div>
+            <img
+              src={heroImg}
+              alt="Room with couches"
+              className="img-fluid"
+              style={{ maxWidth: 520}}
+            />
           </div>
         </div>
       </section>
