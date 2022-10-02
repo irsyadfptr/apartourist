@@ -8,13 +8,13 @@ import heroImg from "../assets/images/heroImg.png";
 
 import Button from "elements/Button";
 
-export default function Hero(props) {
-  // const showMostPicked = () => {
-  //   window.scrollTo({
-  //     top: props.refMostPicked.current.offsetTop - 30,
-  //     behavior: "smooth",
-  //   });
-  // }
+const Hero = (props) => {
+  const showMostPicked = () => {
+    window.scrollTo({
+      top: props.refMostPicked.current.offsetTop - 30,
+      behavior: "smooth",
+    });
+  }
 
   return (
       <section className="container pt-4">
@@ -35,7 +35,7 @@ export default function Hero(props) {
               className="btn px-5"
               hasShadow
               isPrimary
-              // onClick={showMostPicked}
+              onClick={showMostPicked}
             >
               Lets Go!
             </Button>
@@ -49,7 +49,7 @@ export default function Hero(props) {
                   alt={`Travelers`}
                 />
                 <h6 className="mt-3">
-                {9999}{" "}
+                {props?.data?.travelers}{" "}
                   <span className="text-gray-500 font-weight-light">
                     travelers
                   </span>
@@ -63,7 +63,7 @@ export default function Hero(props) {
                   alt={`Apartments`}
                 />
                 <h6 className="mt-3">
-                  {9999}{" "}
+                  {props?.data?.units}{" "}
                   <span className="text-gray-500 font-weight-light">
                     units
                   </span>
@@ -77,7 +77,7 @@ export default function Hero(props) {
                   alt={`Locations`}
                 />
                 <h6 className="mt-3">
-                  {9999}{" "}
+                  {props?.data?.locations}{" "}
                   <span className="text-gray-500 font-weight-light">
                     locations
                   </span>
@@ -98,3 +98,5 @@ export default function Hero(props) {
       </section>
   );
 }
+
+export default Hero

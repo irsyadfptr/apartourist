@@ -1,10 +1,17 @@
 import Hero from 'parts/Hero'
-import React from 'react'
+import MostPicked from 'parts/MostPicked'
+import React, { useRef } from 'react'
+import landingPage from '../__mockup__/landingPage.json'
+
 
 const LandingPage = (props) => {
+
+  const refMostPicked = useRef(null)
+
   return (
     <>
-    <Hero/>
+      <Hero data={landingPage.hero} refMostPicked={refMostPicked}/>
+      <MostPicked data={landingPage.mostPicked} refMostPicked={refMostPicked}/>
     </>
   )
 }
