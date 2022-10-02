@@ -9,7 +9,7 @@
         "_id": "asd1293uasdads1",
         "name": "Jung Hook Sie",
         "type": "Apartment",
-        "imageUrl": "/images/image-mostpicked-1.jpg",
+        "imageUrl": "/images/image-mostpicked-1.png",
         "country": "South Korea",
         "city": "Seoul Flore",
         "price": "80",
@@ -19,7 +19,7 @@
         "_id": "asd1293uasdads1",
         "name": "The People House",
         "type": "Hotel",
-        "imageUrl": "/images/image-mostpicked-2.jpg",
+        "imageUrl": "/images/image-mostpicked-2.png",
         "country": "Indonesia",
         "city": "Bogor",
         "price": "52",
@@ -29,7 +29,7 @@
         "_id": "asd1293uasdads1",
         "name": "House Tour",
         "type": "Rumah",
-        "imageUrl": "/images/image-mostpicked-3.jpg",
+        "imageUrl": "/images/image-mostpicked-3.png",
         "country": "South Korea",
         "city": "Seoul Flore",
         "price": "80",
@@ -39,7 +39,7 @@
         "_id": "asd1293uasdads1",
         "name": "Jung Hook Sie",
         "type": "Apartment",
-        "imageUrl": "/images/image-mostpicked-4.jpg",
+        "imageUrl": "/images/image-mostpicked-4.png",
         "country": "South Korea",
         "city": "Seoul Flore",
         "price": "80",
@@ -49,7 +49,7 @@
         "_id": "asd1293uasdads1",
         "name": "Jung Hook Sie",
         "type": "Apartment",
-        "imageUrl": "/images/image-mostpicked-5.jpg",
+        "imageUrl": "/images/image-mostpicked-5.png",
         "country": "South Korea",
         "city": "Seoul Flore",
         "price": "80",
@@ -58,11 +58,11 @@
     ],
     "categories": [
       {
-        "_id": "asd1293uasdads1",
+        "id": "asd1293uasdads1",
         "name": "House with beauty backyard",
         "items": [
           {
-            "_id": "asd1293uasdads1",
+            "itemId": "asd1293uasdads1",
             "name": "PSW Antasari",
             "imageUrl": "/images/image-category-1.jpg",
             "country": "South Korea",
@@ -70,7 +70,7 @@
             "isPopular": true
           },
           {
-            "_id": "asd1293uasdads1",
+            "itemId": "asd1293uasdads1",
             "name": "Kuretakeso",
             "imageUrl": "/images/image-category-2.jpg",
             "country": "South Korea",
@@ -78,7 +78,7 @@
             "isPopular": false
           },
           {
-            "_id": "asd1293uasdads1",
+            "itemId": "asd1293uasdads1",
             "name": "Arya Duta",
             "imageUrl": "/images/image-category-3.jpg",
             "country": "South Korea",
@@ -86,7 +86,7 @@
             "isPopular": false
           },
           {
-            "_id": "asd1293uasdads1",
+            "itemId": "asd1293uasdads1",
             "name": "Grand Dhika",
             "imageUrl": "/images/image-category-4.jpg",
             "country": "South Korea",
@@ -96,11 +96,11 @@
         ]
       },
       {
-        "_id": "asd1293uasdads1",
+        "id": "asd1293uasdads1",
         "name": "Hotels with large living room",
         "items": [
           {
-            "_id": "asd1293uasdads1",
+            "itemId": "asd1293uasdads1",
             "name": "PSW Antasari",
             "imageUrl": "/images/image-category-5.jpg",
             "country": "South Korea",
@@ -108,7 +108,7 @@
             "isPopular": false
           },
           {
-            "_id": "asd1293uasdads1",
+            "itemId": "asd1293uasdads1",
             "name": "Kuretakeso",
             "imageUrl": "/images/image-category-6.jpg",
             "country": "South Korea",
@@ -116,7 +116,7 @@
             "isPopular": false
           },
           {
-            "_id": "asd1293uasdads1",
+            "itemId": "asd1293uasdads1",
             "name": "Arya Duta",
             "imageUrl": "/images/image-category-7.jpg",
             "country": "South Korea",
@@ -124,7 +124,7 @@
             "isPopular": false
           },
           {
-            "_id": "asd1293uasdads1",
+            "itemId": "asd1293uasdads1",
             "name": "Grand Dhika",
             "imageUrl": "/images/image-category-8.jpg",
             "country": "South Korea",
@@ -134,11 +134,11 @@
         ]
       },
       {
-        "_id": "asd1293uasdads1",
+        "id": "asd1293uasdads1",
         "name": "Apartments with kitchen set",
         "items": [
           {
-            "_id": "asd1293uasdads1",
+            "itemId": "asd1293uasdads1",
             "name": "PSW Antasari",
             "imageUrl": "/images/image-category-9.jpg",
             "country": "South Korea",
@@ -146,7 +146,7 @@
             "isPopular": false
           },
           {
-            "_id": "asd1293uasdads1",
+            "itemId": "asd1293uasdads1",
             "name": "Kuretakeso",
             "imageUrl": "/images/image-category-10.jpg",
             "country": "South Korea",
@@ -154,7 +154,7 @@
             "isPopular": false
           },
           {
-            "_id": "asd1293uasdads1",
+            "itemId": "asd1293uasdads1",
             "name": "Arya Duta",
             "imageUrl": "/images/image-category-11.jpg",
             "country": "South Korea",
@@ -162,7 +162,7 @@
             "isPopular": true
           },
           {
-            "_id": "asd1293uasdads1",
+            "itemId": "asd1293uasdads1",
             "name": "Grand Dhika",
             "imageUrl": "/images/image-category-12.jpg",
             "country": "South Korea",

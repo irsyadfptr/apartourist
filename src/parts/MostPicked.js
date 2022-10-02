@@ -1,5 +1,6 @@
 import Button from 'elements/Button';
 import React from 'react'
+import image from '../assets/images/image-mostpicked-1.png'
 
 const MostPicked = (props) => {
   return (
@@ -26,7 +27,7 @@ const MostPicked = (props) => {
                         //     ? `${process.env.REACT_APP_HOST}/${item.imageId[0].imageUrl}`
                         //     : ""
                         // }
-                        src={item.imageUrl}
+                        src={image}
                         alt={item.title}
                         className="img-cover"
                       />
