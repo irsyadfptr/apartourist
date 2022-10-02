@@ -3,8 +3,8 @@ import React from "react";
 import locationIcon from "../assets/images/icons/loc-icon.svg";
 import apartIcon from "../assets/images/icons/apart-icon.svg";
 import travelIcon from "../assets/images/icons/travel-icon.svg";
-
-import heroImg from "../assets/images/heroImg.png";
+import ImageHero from "../assets/images/img-hero.jpg";
+import ImageHero_ from "../assets/images/img-hero-frame.jpg";
 
 import Button from "elements/Button";
 
@@ -19,7 +19,7 @@ const Hero = (props) => {
   return (
       <section className="container pt-4">
         <div className="row align-items-center">
-          <div className="col-auto pr-5" style={{ width: 530 }}>
+          <div className="col-auto" style={{ maxWidth: 530 }}>
             <h1 className="line-height-1 mb-3" style={{color: "#140536", fontWeight: 400}}>
               <span className="text-primary font-weight-bold">Rent</span> and <span className="text-primary2 font-weight-bold">Find</span>, <br />
               Hidden Gems Around You!
@@ -85,14 +85,21 @@ const Hero = (props) => {
               </div>
             </div>
           </div>
-
           <div className="col-6 pl-5">
-            <img
-              src={heroImg}
-              alt="Room with couches"
-              className="img-fluid"
-              style={{ maxWidth: 520}}
-            />
+            <div style={{ width: 520, height: 410 }}>
+              <img
+                src={ImageHero}
+                alt="Room with couches"
+                className="img-fluid position-absolute"
+                style={{ margin: "-30px 0 0 -30px", zIndex: 1 }}
+              />
+              <img
+                src={ImageHero_}
+                alt="Room with couches frame"
+                className="img-fluid position-absolute"
+                style={{ margin: "0 -15px -15px 0" }}
+              />
+            </div>
           </div>
         </div>
       </section>
