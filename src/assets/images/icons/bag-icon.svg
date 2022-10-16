@@ -1,0 +1,19 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_3_62)">
+<ellipse cx="5.49999" cy="31.238" rx="1.83333" ry="1.76196" fill="#2D208A"/>
+<ellipse cx="16.5" cy="31.238" rx="1.83333" ry="1.76196" fill="#2D208A"/>
+<path d="M16 4.59677H16.5V4.09677V3C16.5 1.61929 15.3807 0.5 14 0.5H9C7.61929 0.5 6.5 1.61929 6.5 3V4.09677V4.59677H7H16Z" stroke="#2D208A"/>
+<rect x="0.5" y="4.13405" width="21" height="26.0167" rx="1.5" fill="white" stroke="#2D208A"/>
+<line x1="17.6111" y1="8.8326" x2="17.6111" y2="25.4522" stroke="#A70894" stroke-linecap="round"/>
+<line x1="0.5" y1="-0.5" x2="10.0713" y2="-0.5" transform="matrix(0.00871769 0.999962 -0.999968 0.00805215 6.11111 11.8565)" stroke="#A70894" stroke-linecap="round"/>
+<line x1="0.5" y1="-0.5" x2="10.0713" y2="-0.5" transform="matrix(0.00871769 0.999962 -0.999968 0.00805215 14.6667 11.8565)" stroke="#A70894" stroke-linecap="round"/>
+<line x1="0.5" y1="-0.5" x2="10.0713" y2="-0.5" transform="matrix(0.00871769 0.999962 -0.999968 0.00805215 8.55554 8.3326)" stroke="#A70894" stroke-linecap="round"/>
+<line x1="0.5" y1="-0.5" x2="10.0713" y2="-0.5" transform="matrix(0.00871769 0.999962 -0.999968 0.00805215 12.2222 15.3804)" stroke="#A70894" stroke-linecap="round"/>
+<line x1="4.16666" y1="8.8326" x2="4.16666" y2="25.4522" stroke="#A70894" stroke-linecap="round"/>
+</g>
+<defs>
+<clipPath id="clip0_3_62">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

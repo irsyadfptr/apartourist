@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 import Star from "elements/Star";
 import Button from "elements/Button";
 import image from "../assets/images/testimony.png"
-import frame from "../assets/images/testimony-border.png";
+import frame from "../assets/images/testimonial-landingpages-frame.jpg";
 
 
 const Testimony = ({ data }) => {
@@ -22,13 +22,13 @@ const Testimony = ({ data }) => {
                 src={image}
                 alt="Testimonial"
                 className="position-absolute"
-                style={{ zIndex: 1 , margin: `30px 0 0 30px`}}
+                style={{ zIndex: 1 , margin: `30px 0 0 30`, maxWidth: 460, maxHeight: 460}}
               />
               <img
                 src={frame}
                 alt="Testimonial frame"
                 className="position-absolute"
-                style={{ margin: `-30px 0 0 -30px` }}
+                style={{ margin: `-30px 0 0 -30px`, maxWidth: 460, maxHeight: 460}}
               />
             </div>
           </div>

@@ -1,12 +1,13 @@
 import React from "react";
 
-import locationIcon from "../assets/images/icons/loc-icon.svg";
-import apartIcon from "../assets/images/icons/apart-icon.svg";
-import travelIcon from "../assets/images/icons/travel-icon.svg";
+import locationIcon from "../assets/images/icons/location-icon.svg";
+import apartIcon from "../assets/images/icons/apartment-icon.svg";
+import travelIcon from "../assets/images/icons/bag-icon.svg";
 import ImageHero from "../assets/images/img-hero.jpg";
 import ImageHero_ from "../assets/images/img-hero-frame.jpg";
 
 import Button from "elements/Button";
+import { Fade } from "react-reveal";
 
 const Hero = (props) => {
   const showMostPicked = () => {
@@ -17,6 +18,7 @@ const Hero = (props) => {
   }
 
   return (
+    <Fade bottom>
       <section className="container pt-4">
         <div className="row align-items-center">
           <div className="col-auto" style={{ maxWidth: 530 }}>
@@ -43,8 +45,8 @@ const Hero = (props) => {
             <div className="row" style={{ marginTop: 80 }}>
               <div className="col-auto" style={{ marginRight: 35 }}>
                 <img
-                  width="36"
-                  height="36"
+                  width="40"
+                  height="40"
                   src={travelIcon}
                   alt={`Travelers`}
                 />
@@ -57,8 +59,8 @@ const Hero = (props) => {
               </div>
               <div className="col-auto" style={{ marginRight: 35 }}>
                 <img
-                  width="36"
-                  height="36"
+                  width="40"
+                  height="40"
                   src={apartIcon}
                   alt={`Apartments`}
                 />
@@ -71,8 +73,8 @@ const Hero = (props) => {
               </div>
               <div className="col-auto">
                 <img
-                  width="36"
-                  height="36"
+                  width="40"
+                  height="40"
                   src={locationIcon}
                   alt={`Locations`}
                 />
@@ -103,6 +105,7 @@ const Hero = (props) => {
           </div>
         </div>
       </section>
+    </Fade>
   );
 }
 
